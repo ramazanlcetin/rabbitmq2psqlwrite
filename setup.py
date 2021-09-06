@@ -3,7 +3,7 @@
 import setuptools
 
 setuptools.setup(
-    name="psql2rabbitmq",
+    name="rabbitmq2psqlwrite",
     version="1.0.2",
     author="Ramazan ÇETİN",
     author_email="ramazan.cetin0640@gmail.com",
