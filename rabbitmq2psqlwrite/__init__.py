@@ -9,7 +9,7 @@ from aio_pika.pool import Pool
 from distutils.util import strtobool
 
 
-async def consume(loop, sql_template=None, control_fields=None, check_field=None, logger=None, config=None,
+async def perform_task(loop, sql_template=None, control_fields=None, check_field=None, logger=None, config=None,
                   consumer_pool_size=10):
     if config is None:
         config = {
