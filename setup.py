@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="rabbitmq2psqlwrite",
-    version="1.0.2",
+    version="1.0.3",
     author="Ramazan ÇETİN",
     author_email="ramazan.cetin0640@gmail.com",
     description="RabbitMQ listen and read data change database",
